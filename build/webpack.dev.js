@@ -69,7 +69,6 @@ module.exports = webpackMerge(webpackBase, {
   },
   devServer: {
     contentBase: config.devServerOutputPath, // 本地服务所加载的页面所在的目录
-    colors: true, // 终端中输出结果为彩色
     overlay: {
       errors: true,
       warnings: true,

@@ -4,11 +4,11 @@
   "description": "webpack4-vue2-multi-page",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env BUILD_MODE=dev webpack-dev-server ",
+    "dev": "cross-env BUILD_MODE=development webpack-dev-server ",
     "build:prod": "cross-env BUILD_MODE=prod webpack ",
-    "build:pre": "cross-env BUILD_MODE=prod webpack ",
-    "build:test": "cross-env BUILD_MODE=prod webpack ",
-    "build:dev": "cross-env BUILD_MODE=prod webpack ",
+    "build:pre": "cross-env BUILD_MODE=pre webpack ",
+    "build:test": "cross-env BUILD_MODE=test webpack ",
+    "build:dev": "cross-env BUILD_MODE=dev webpack ",
     "server": "http-server ./dist -p 8089 -o"
   },
   "keywords": [],

@@ -1,11 +1,9 @@
 <template>
   <div class='index'>
-    <p>Index Page</p>
-    <div class="count">
-      <span v-text='count'></span>
-      <button @click="add">add count</button>
+    <h1>所有H5页面</h1>
+    <div>
+      <a href="./a20190419zcyl">注册有礼</a>
     </div>
-    <img src="../../assets/logo.png" alt="">
   </div>
 </template>
 <script>

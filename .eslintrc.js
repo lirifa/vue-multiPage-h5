@@ -15,6 +15,7 @@ module.exports = {
     "sourceType": "module",
   },
   "rules": {
+    "no-console": "off", // 启动控制台打印
     // "comma-dangle": ["warn", "always-multiline"],
     "indent": ["warn", 2],
     "linebreak-style": ["warn", "unix"],
