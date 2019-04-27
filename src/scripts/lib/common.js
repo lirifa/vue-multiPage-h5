@@ -4,7 +4,7 @@
   var html = document.documentElement;
   function setFont() {
     var html = document.documentElement;
-    var k = 640;
+    var k = 750;
     html.style.fontSize = html.clientWidth / k * 100 + "px";
   }
   setFont();

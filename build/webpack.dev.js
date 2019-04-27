@@ -2,6 +2,7 @@ const path = require('path');
 const webpackBase = require('./webpack.base');
 const webpackMerge = require('webpack-merge');
 const config = require('./config');
+const proxyConfig = require('./proxy.config')
 
 module.exports = webpackMerge(webpackBase, {
   mode: 'development',
@@ -69,10 +70,13 @@ module.exports = webpackMerge(webpackBase, {
   },
   devServer: {
     contentBase: config.devServerOutputPath, // 本地服务所加载的页面所在的目录
+    host: 'local.consumer-h5-app.dev.yitaichang.cn',
+    port: 9000,
     overlay: {
       errors: true,
       warnings: true,
     },
-    open: true // 服务启动后 打开浏览器
+    open: true,// 服务启动后 打开浏览器
+    proxy: proxyConfig.proxyList
   }
 });

@@ -52,6 +52,7 @@ module.exports = {
       '@commons': path.resolve(__dirname, '../src/commons'),
       '@mixins': path.resolve(__dirname, '../src/pages/page.js'),
       '@vuex': path.resolve(__dirname, '../src/store'),
+      '@utils': path.resolve(__dirname, '../src/utils'),
     },
     extensions:['*','.css','.js','.vue']
   },

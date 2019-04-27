@@ -2,7 +2,10 @@
   <div class='index'>
     <h1>所有H5页面</h1>
     <div>
-      <a href="./a20190419zcyl">注册有礼</a>
+      <a href="./a20190419zclx4wx">注册有礼(微信)</a>
+    </div>
+    <div>
+      <a href="./a20190401yqyj4app">邀请有奖</a>
     </div>
   </div>
 </template>

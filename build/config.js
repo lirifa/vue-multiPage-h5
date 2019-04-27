@@ -6,11 +6,16 @@ module.exports = {
       title: '首页'
     },
     {
-      page: 'a20190419zcyl',
+      page: 'a20190419zclx4wx',
       name: 'index',
       title: '注册有礼',
-      dir: 'a20190419zcyl' // 支持设置多级目录
-
+      dir: 'a20190419zclx4wx' // 支持设置多级目录
+    },
+    {
+      page: 'a20190401yqyj4app',
+      name: 'index',
+      title: '邀请有奖',
+      dir: 'a20190401yqyj4app' // 支持设置多级目录
     },
     {
       page: 'list',
