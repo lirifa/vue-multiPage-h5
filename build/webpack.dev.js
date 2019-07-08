@@ -70,7 +70,7 @@ module.exports = webpackMerge(webpackBase, {
   },
   devServer: {
     contentBase: config.devServerOutputPath, // 本地服务所加载的页面所在的目录
-    host: 'local.consumer-h5-app.dev.yitaichang.cn',
+    host: 'local.consumer-h5-app.dev.cn',
     port: 9000,
     overlay: {
       errors: true,
